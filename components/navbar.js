@@ -110,7 +110,7 @@ const Navbar = () => {
           {['Home', 'News', 'Portfolio', 'Notes', 'Blogs'].map((item) => (
             <Link
               key={item}
-              href={`/${item.toLowerCase()}`}
+              href={item != "Home" ? `/${item.toLowerCase()}`: `/`}
               className="flex items-center px-3 py-2 rounded-md text-base font-medium text-white hover:bg-indigo-600/30"
             >
               {navIcons[item]}
