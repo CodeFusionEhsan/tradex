@@ -157,7 +157,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-gray-800 p-4 md:p-8">
+    <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-gray-800 py-16 md:p-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Wallet Details Card */}
         <motion.div
